@@ -486,7 +486,7 @@ module.exports = templatedArray('annotation', {
             'you must explicitly enable `captureevents`.'
         ].join(' ')
     },
-    editType: 'calc',
+    editType: 'layoutReplot',
 
     _deprecated: {
         ref: {
