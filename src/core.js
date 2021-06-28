@@ -68,6 +68,8 @@ var Fx = require('./components/fx');
 var Plots = require('./plots/plots');
 
 exports.Plots = {
+    previousPromises: Plots.previousPromises,
+    call: Plots.call,
     resize: Plots.resize,
     graphJson: Plots.graphJson,
     sendDataToCloud: Plots.sendDataToCloud
